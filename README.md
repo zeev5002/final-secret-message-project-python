@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🕵️ Secret Message from the Spy
 
 **Final project for the Python & Cryptography course.**  
@@ -25,7 +24,7 @@ Your mission: decrypt, analyze, and visualize the message.
 
 ---
 
-## 🧠 Built-in Functions Used
+## 🧠 Built-in Python Functions Used
 
 - `len`, `max`, `min`, `set`, `sum`
 - `map`, `zip`, `enumerate`
@@ -35,13 +34,44 @@ Your mission: decrypt, analyze, and visualize the message.
 
 ## 🧪 How to Run
 
-1. Make sure you have Python 3 installed.
-2. Clone or copy this project folder.
+1. Make sure you have **Python 3** installed.
+2. Clone or download this repository.
 3. Place your encrypted message in the file `encrypted.txt`.
 4. Run the GUI:
-```bash
-python gui.py
-=======
-# final-secret-message-project-python
-Complete decryption tool for Caesar ciphers using brute-force, text analysis with built-in Python functions, and an interactive Tkinter interface.
->>>>>>> 2dcbb48e74b2a04f8e25ff43dc1a6b1a9b31018a
+   ```bash
+   python gui.py
+   ```
+5. Use the GUI to decrypt and analyze the message.
+
+---
+
+## 📂 File Structure
+
+```
+├── analysis.py         # Text analysis functions
+├── decrypt.py          # Caesar decryption logic
+├── encrypted.txt       # Encrypted message file
+├── gui.py              # Tkinter GUI interface
+├── main.py             # Optional main entry point
+├── README.md           # This file
+├── .gitignore          # Virtual environment and IDE ignores
+```
+
+---
+
+## ✅ Example Screenshot
+
+*(You can upload one later in the repo)*
+
+---
+
+## 💡 Notes
+
+- You can change the content of `encrypted.txt` to test different messages.
+- The GUI allows you to re-encrypt messages with your own Caesar shift.
+
+---
+
+## 👨‍💻 Created by
+
+Zeev5002 – for the final assignment in *Python & Cryptography* course.
