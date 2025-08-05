@@ -1,0 +1,10 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore temp/backup files
+~$*
+*.tmp
